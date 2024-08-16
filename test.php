@@ -2,8 +2,8 @@
 require 'vendor/autoload.php';
 use Mailgun\Mailgun;
 
-$api_key = 'b5e02f777d9e4e9e98b4f2b1e5a3f76f-4b98b89f-3410c223'; 
-$domain = 'sandbox010a0d55e24c49f58aae811539071523.mailgun.org';
+$api_key = 'sample'; 
+$domain = 'sample';
 
 // Instantiate the client using the create method
 $mgClient = Mailgun::create($api_key);
