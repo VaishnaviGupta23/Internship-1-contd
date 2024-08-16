@@ -10,7 +10,7 @@ $mgClient = Mailgun::create($api_key);
 
 try {
     $result = $mgClient->messages()->send($domain, [
-        'from'    => 'vaishnavi <mailgun@sandbox010a0d55e24c49f58aae811539071523.mailgun.org>',
+        'from'    => 'vaishnavi <sample>',
         'to'      => 'vaishnavi <vaishnavigupta1423@gmail.com>',
         'subject' => 'Hello',
         'text'    => 'Testing some Mailgun awesomeness!',
